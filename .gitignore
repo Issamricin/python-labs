@@ -1,0 +1,45 @@
+.idea/
+.vscode/
+
+*.egg-info/
+*.pyc
+*\.bak
+\.fuse*
+.coverage
+.DS_Store
+*__pycache__
+
+docs/_build/
+docs/build/html
+docs/build/doctrees
+dist/
+build/
+htmlcov/
+
+.tox/
+central_modules
+
+dependency-graphs/
+test-results/
+uml-diagrams/
+pydoer-graphs/
+
+db/
+
+# LOGS
+*.log
+# LOCK files
+*.lock
+# VSC local env
+venv
+.venv
+# poetry pin-deps generated file 
+reqs.txt
+# poetry .readthedocs.yaml 
+req-docs.txt
+# auto-generated Sphinx api docs
+.docs
+
+# manifest file 
+MANIFEST.in
+
