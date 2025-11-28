@@ -1,0 +1,6 @@
+# Quiz
+
+A classic program for experimenting with conditions is a quiz. Write a quiz program with tricky questions around 10 questions.
+To measure how long it takes a user to complete a task, you can use the following module "timer.py".
+
+Hint: use functions to create penalty rounds for incorrect answers.

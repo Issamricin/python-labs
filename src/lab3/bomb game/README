@@ -1,0 +1,26 @@
+# The bomb game
+
+We have put together a quiz. If you answer incorrectly, the bomb will detonate.
+
+You need two files: the_bomb.py and bomb.py
+
+Then run bomben.py:
+ $ python3 the_bomb.py.
+
+This is a small game where you have to avoid making the bomb explode
+
+The user is given questions to answer. But since we like to detonate the bomb, 
+We can also detonate it when the answer is correct. Therefore, the user must read the source code to 
+avoid detonating the bomb.
+
+so for example the code may be like:
+
+ans = input("what is 5+5? ")
+if ans == 10:
+    bomb()
+
+you can see that the program will explode if you answer 10 so you have to answer incorrectly to pass.
+
+So how do you know how to answer? 
+
+You read the code! as you play find where the program is at and then track it and avoid wrong answers.
